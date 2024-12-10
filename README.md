@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/qaware/x-forwarded-filter.svg?branch=master)](https://travis-ci.org/qaware/x-forwarded-filter) [![sonarcloud](https://sonarcloud.io/api/project_badges/measure?project=de.qaware.xff%3Ax-forwarded-filter&metric=alert_status)](https://sonarcloud.io/dashboard?id=de.qaware.xff%3Ax-forwarded-filter) [![Coverage Status](https://coveralls.io/repos/github/qaware/x-forwarded-filter/badge.svg?branch=master)](https://coveralls.io/github/qaware/x-forwarded-filter?branch=master) [![License](https://img.shields.io/badge/license-APACHE2.0-green.svg?style=flat)]() [![Download](https://api.bintray.com/packages/qaware-oss/maven/x-forwarded-filter/images/download.svg)](https://bintray.com/qaware-oss/maven/x-forwarded-filter/_latestVersion)
-
-
 # Standalone (x-)forwarded* Filter
 
 The (x-)forwarded* Http-Headers family are a pseudo standard with varying and mostly lacking support in most proxies, frameworks and webservers.
@@ -72,11 +69,11 @@ The JARs are available via Maven Central and JCenter.
 ### Maven
 If you are using Maven to build your project, add the following to the `pom.xml` file.
 ```XML
-<!-- https://mvnrepository.com/artifact/de.qaware.xff/x-forwarded-filter -->
+<!-- https://mvnrepository.com/artifact/org.openl/x-forwarded-filter -->
 <dependency>
-    <groupId>de.qaware.xff</groupId>
+    <groupId>org.openl</groupId>
     <artifactId>x-forwarded-filter</artifactId>
-    <version>1.0</version>
+    <version>2.0</version>
 </dependency>
 ```
 
@@ -84,13 +81,12 @@ If you are using Maven to build your project, add the following to the `pom.xml`
 In case you are using Gradle to build your project, add the following to the `build.gradle` file:
 ```groovy
 repositories {
-    jcenter()
     mavenCentral()
 }
 
 dependencies {
-    // https://mvnrepository.com/artifact/de.qaware.xff/x-forwarded-filter
-    compile group: 'de.qaware.xff', name: 'x-forwarded-filter', version: '1.0'
+    // https://mvnrepository.com/artifact/org.openl/x-forwarded-filter
+    compile group: 'org.openl', name: 'x-forwarded-filter', version: '2.0'
 }
 ```
 
@@ -303,9 +299,6 @@ gradlew build
 ```
 
 # Appendix
-
-## Maintainer
-Michael Frank, <michael.frank@qaware.de>
 
 ## Credits
 Code was taken from Spring 5.0.4 

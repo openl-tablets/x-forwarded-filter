@@ -20,8 +20,8 @@ import de.qaware.xff.util.UrlPathHelper;
 import de.qaware.xff.util.uri.UriComponents;
 import de.qaware.xff.util.uri.UriComponentsBuilder;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletRequestWrapper;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequestWrapper;
 
 import static de.qaware.xff.util.ForwardedHeader.X_FORWARDED_PREFIX;
 import static de.qaware.xff.util.uri.UriComponents.PATH_DELIMITER_STRING;

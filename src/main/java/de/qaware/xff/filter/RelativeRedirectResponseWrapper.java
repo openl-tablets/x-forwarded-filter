@@ -19,9 +19,9 @@ package de.qaware.xff.filter;
 import de.qaware.xff.util.HttpHeaders;
 import org.apache.commons.lang3.Validate;
 
-import javax.servlet.ServletResponse;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpServletResponseWrapper;
+import jakarta.servlet.ServletResponse;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletResponseWrapper;
 import java.io.IOException;
 
 /**

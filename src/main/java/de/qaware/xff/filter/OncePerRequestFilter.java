@@ -17,9 +17,9 @@ package de.qaware.xff.filter;
 
 import de.qaware.xff.util.WebUtilsConstants;
 
-import javax.servlet.*;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.*;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Optional;
 
@@ -30,8 +30,8 @@ import java.util.Optional;
  * method with HttpServletRequest and HttpServletResponse arguments.
  * <p>
  * <p>As of Servlet 3.0, a filter may be invoked as part of a
- * {@link javax.servlet.DispatcherType#REQUEST REQUEST} or
- * {@link javax.servlet.DispatcherType#ASYNC ASYNC} dispatches that occur in
+ * {@link jakarta.servlet.DispatcherType#REQUEST REQUEST} or
+ * {@link jakarta.servlet.DispatcherType#ASYNC ASYNC} dispatches that occur in
  * separate threads. A filter can be configured in {@code web.xml} whether it
  * should be involved in async dispatches. However, in some cases servlet
  * containers assume different default configuration. Therefore sub-classes can
@@ -43,7 +43,7 @@ import java.util.Optional;
  * <p>
  * <p>
  * <p>Yet another dispatch type that also occurs in its own thread is
- * {@link javax.servlet.DispatcherType#ERROR ERROR}. Subclasses can override
+ * {@link jakarta.servlet.DispatcherType#ERROR ERROR}. Subclasses can override
  * {@link #shouldNotFilterErrorDispatch()} if they wish to declare statically
  * if they should be invoked <em>once</em> during error dispatches.
  * <p>

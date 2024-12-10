@@ -15,7 +15,7 @@
  */
 package de.qaware.xff.util;
 
-import javax.servlet.ServletRequest;
+import jakarta.servlet.ServletRequest;
 
 /**
  * Miscellaneous utilities for web applications.
@@ -40,10 +40,10 @@ public final class WebUtilsConstants {
 	 * <p>If included via a RequestDispatcher, the current resource will see the
 	 * originating request. Its own URI and paths are exposed as request attributes.
 	 */
-	public static final String INCLUDE_REQUEST_URI_ATTRIBUTE = "javax.servlet.include.request_uri";
-	public static final String INCLUDE_CONTEXT_PATH_ATTRIBUTE = "javax.servlet.include.context_path";
+	public static final String INCLUDE_REQUEST_URI_ATTRIBUTE = "jakarta.servlet.include.request_uri";
+	public static final String INCLUDE_CONTEXT_PATH_ATTRIBUTE = "jakarta.servlet.include.context_path";
 
-	public static final String ERROR_REQUEST_URI_ATTRIBUTE = "javax.servlet.error.request_uri";
+	public static final String ERROR_REQUEST_URI_ATTRIBUTE = "jakarta.servlet.error.request_uri";
 
 
 	/**
